@@ -19,9 +19,9 @@ module cutouts() {
     roundedcube([120, 23, 15], true, 5, "z");    
     
     // sidepost cutouts
-    translate([-75.15, 0, 0])
+    translate([-75.65, 0, 0])
     roundedcube([8, 10, 15], true, 0.5, "z");
-    translate([75.15, 0, 0])
+    translate([75.65, 0, 0])
     roundedcube([8, 10, 15], true, 0.5, "z");
     
     // rear slot
@@ -43,7 +43,7 @@ translate([0, -7.15, 3.55])
 corners(containerWidth=158, containerDepth=101, tolerance=0.15, cornerWD=10, cornerHeight=5, hullThickness=1);
 
 translate([0, -7.15, 3.55])
-sideposts(158, 26, 0.15, 0, 1.4);
+sideposts(159, 26, 0.15, 0, 1);
 
 // netgear switch gs108
 //color("gray", 0.5)
