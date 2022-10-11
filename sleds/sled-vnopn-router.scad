@@ -9,7 +9,7 @@ module blank2wSled() {
 
 module cutouts() {
     color("gray")
-    roundedcube([107.32, 101.8, 15], true, 5, "z");
+    roundedcube([112, 112, 15], true, 5, "z");
     
     // sidepost cutouts
     translate([-63.15, 0, 0])
